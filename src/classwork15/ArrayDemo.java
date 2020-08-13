@@ -24,6 +24,10 @@ public class ArrayDemo {
             System.out.println("You are trying to insert more than 5 element");
         }
 
+        finally {
+            System.out.println("You need to execute me at all times");
+        }
+
         // How to get value from a single index?
         /*System.out.println("Get the element in the index 0: " + studentID[0]);
         System.out.println("Get the element in the index 1: " + studentID[1]);
